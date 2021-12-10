@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo-3.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<body>
+    
+    <div class="encabezado">
+        <header>
+            <div class="bloque-logo">
+                <img src="imagenes/Logo-Hospital.png" alt="" width="100" height="100">
+            </div>
+            <div class="bloque-titulo">
+                <h1>MEDI SALUD</h1>
+            </div>
+            <div class="bloque-eslogan">
+                <h3>Siéntete siempre seguro con nosotros..♥</h3>
+            </div>
+        </header>
+    </div>
+
+    <div class="cuerpo">
+        <div class="contenedor">
+            <div class="contenedor-superior">
+                <div class="contenedor-superior-imagenes">
+                    <img src="imagenes/icono-registro.jpg" alt=""  width="100" height="100">
+                </div>
+                <div class="contenedor-superior-texto">
+                    <h2>REGISTRO DE VACUNACIÓN</h2>
+                </div>
+            </div>
+            <p></p>
+            <div class="contenedor-inferior">
+                <div class="contenedor-inferior-contenido">
+                    <form method="GET">
+                        <label for="ID">ID:</label>
+                        <input type="number" id="identificacion" name="identificacion" placeholder="Escribe aquí tu ID " 
+                        required="true"><br><br>
+
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Escribe aquí tu nombre" 
+                        required="true"><br><br>
+                        
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Escribe aquí tu apellido"
+                        required><br><br>
+                
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" name="edad" step="any" ><br><br>
+                
+                        <label>Género</label><br>
+                        <input type="radio" id="femenino" name="genero" value="femenino">
+                        <label for="femenino" >Femenino</label><br>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino" >Masculino</label><br><br>  
+                
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" id="telefono" name="telefono" placeholder="Escribe aquí tu telefono"
+                        required><br><br> 
+                
+                        <label for="correoElectronico">Correo Electronico:</label>
+                        <input type="text" id="correoElectronico" name="correoElectronico" placeholder="Escribe aquí tu correo correo electronico"
+                        required><br><br>
+                
+                        <label for="tiempoVacunacion">¿Se ha vacunado en los ultimos 3 meses?:</label>
+                        <input type="text" id="tiempoVacunacion" name="tiempoVacunacion" placeholder="Si o No"
+                        required><br><br>
+                
+                        <label for="sintomas">¿A presentado sintomas de covid-19 en los ultimos 3 meses?:</label>
+                        <input type="text" id="sintomas" name="sintomas" placeholder="Si o No"
+                        required><br><br>
+                
+                        <label for="consumoSustancias">¿Consume alguna sustancia(alcohol,cigarrillo,drogas?:</label>
+                        <input type="text" id="consumoSustancias" name="consumoSustancias" placeholder="Si o No"
+                        required><br><br>
+                                
+                        
+                        <input type="submit" value="Enviar"><br><br>
+                        <p></p>
+                        <h4>RECOMENDACIÓN: Este pendiente del telefono y del correo electronico</h4>
+                
+                    </form>
+
+                    <p></p>
+
+                </div>
+            </div>
+            
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+/*Encabezado de la pagina*/
+.encabezado{
+    text-align: center;
+    background-color: #0096c7;
+}
+
+header{
+width: 55%;
+display: inline-block;
+}
+
+.bloque-logo{
+float: left;
+margin: 20px;
+margin-top: 40px;
+}
+
+.bloque-titulo{
+margin-top: 50px;
+display: inline-block;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.bloque-eslogan{
+display: inline-block;
+margin-left: 350px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*cuerpo de la pagina*/
+
+.cuerpo{
+    background-color:#8DD2FF  ;
+    margin: auto;
+    width: 55%;
+    height: 1000px;
+}
+
+
+
+.contenedor-superior-imagenes{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.contenedor-superior-texto{
+    display: inline-block;
+    transform: translateY(-30px);
+}
+
+
+
+.contenedor-inferior-imagenes{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.contenedor-inferior-imagenes{
+    display: inline-block;
+}
+
+.contenedor-inferior-texto{
+    display: inline-block;
+    transform: translateY(-15px);
+}
+
+
+.contenedor-inferior{
+    background-color: aliceblue;
+    width: 700px;
+    margin-left: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+

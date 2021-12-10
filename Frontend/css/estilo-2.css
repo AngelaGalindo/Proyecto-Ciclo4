@@ -1,0 +1,205 @@
+
+/*Encabezado de la pagina*/
+.encabezado{
+    text-align: center;
+    background-color: #0096c7;
+}
+
+header{
+width: 55%;
+display: inline-block;
+}
+
+.bloque-logo{
+float: left;
+margin: 20px;
+margin-top: 40px;
+}
+
+.bloque-titulo{
+margin-top: 50px;
+display: inline-block;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.bloque-eslogan{
+display: inline-block;
+margin-left: 350px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*cuerpo de la pagina*/
+
+.cuerpo{
+    background-color:#8DD2FF  ;
+    margin: auto;
+    width: 55%;
+    height: 2000px;
+}
+
+
+
+.contenedor-superior-imagenes{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.contenedor-superior-texto{
+    display: inline-block;
+    transform: translateY(-30px);
+}
+
+
+
+.contenedor-inferior-imagenes{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.contenedor-inferior-texto{
+    display: inline-block;
+    transform: translateY(-20px);
+}
+
+.bloque-1{
+    text-align: center;
+}
+
+.logo-pfizer{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+
+}
+
+.contenedor-bloque-1{
+    display: inline-block;
+    margin: 20px;
+    transform: translateY(-100px);
+}
+
+.contenedor-2-bloque-1{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 55%;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.bloque-2{
+    text-align: center;
+}
+
+.logo-sinovac{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+
+}
+
+.contenedor-bloque-2{
+    display: inline-block;
+    margin: 20px;
+    transform: translateY(-100px);
+}
+
+.contenedor-2-bloque-2{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 55%;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.bloque-3{
+    text-align: center;
+}
+
+.logo-moderna{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+
+}
+
+.contenedor-bloque-3{
+    display: inline-block;
+    margin: 20px;
+    transform: translateY(-100px);
+}
+
+.contenedor-2-bloque-3{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 55%;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.bloque-4{
+    text-align: center;
+}
+
+.logo-janssen{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+
+}
+
+.contenedor-bloque-4{
+    display: inline-block;
+    margin: 20px;
+    transform: translateY(-30px);
+}
+
+.contenedor-2-bloque-4{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 55%;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.bloque-5{
+    text-align: center;
+}
+
+.logo-astrazeneca{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+
+}
+
+.contenedor-bloque-5{
+    display: inline-block;
+    margin: 20px;
+    transform: translateY(-70px);
+}
+
+.contenedor-2-bloque-5{
+    background-color: aliceblue;
+    display: inline-block;
+    width: 55%;
+    margin: 20px;
+    margin-left: 80px;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}

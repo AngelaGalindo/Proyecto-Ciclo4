@@ -1,0 +1,113 @@
+body{
+    background-color:white;
+    
+}
+
+/*encabezado de la pagina*/
+.encabezado{
+        text-align: center;
+        background-color: #0096c7;
+}
+
+header{
+    width: 55%;
+    display: inline-block;
+}
+
+.bloque-logo{
+    float: left;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.bloque-titulo{
+    margin-top: 50px;
+    display: inline-block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.bloque-eslogan{
+    display: inline-block;
+    margin-left: 350px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*cuerpo de la pagina*/
+
+.cuerpo{
+    background-color:#8DD2FF  ;
+    margin: auto;
+    width: 55%;
+    height: 1000px;
+    
+}
+
+.cuerpo-superior{
+    width: 400px;
+    display: inline-block;
+    margin: 30px;
+    text-align: center;
+    font-family:monospace;
+}
+
+.cuerpo-lateral{
+    float: right;
+    margin: 50px;
+    
+}
+
+.cuerpo-inferior{
+    text-align: center;
+    width: auto;
+    display: inline-block;
+    margin-left: 11px;
+}
+
+
+.bloque-1{
+    background-color:#5499C7;
+    width: 340px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo-libro{
+    width: 100px;
+    outline: #0096c7 solid 5px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.bloque-2{
+    background-color:#85C1E9;
+    width: 340px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo-registro{
+    width: 100px;
+    outline: #0096c7 solid 5px;
+    display: inline-block;
+    margin-top: 75px;
+}
+
+.bloque-3{
+    background-color:#5DADE2;
+    width: 340px;
+    height: 500px;
+    float: left;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.logo-listado{
+    width: 100px;
+    outline: #0096c7 solid 5px;
+    display: inline-block;
+    margin-top: 50px;
+}
+

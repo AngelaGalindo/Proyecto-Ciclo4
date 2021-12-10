@@ -1,0 +1,81 @@
+/*Encabezado de la pagina*/
+.encabezado{
+    text-align: center;
+    background-color: #0096c7;
+}
+
+header{
+width: 55%;
+display: inline-block;
+}
+
+.bloque-logo{
+float: left;
+margin: 20px;
+margin-top: 40px;
+}
+
+.bloque-titulo{
+margin-top: 50px;
+display: inline-block;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.bloque-eslogan{
+display: inline-block;
+margin-left: 350px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*cuerpo de la pagina*/
+
+.cuerpo{
+    background-color:#8DD2FF  ;
+    margin: auto;
+    width: 55%;
+    height: 1000px;
+}
+
+
+
+.contenedor-superior-imagenes{
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    outline: #0096c7 solid 5px;
+}
+
+.contenedor-superior-texto{
+    display: inline-block;
+    transform: translateY(-30px);
+}
+
+/*Buscador*/
+
+.Formulario_buscador{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    float: right;
+    background: initial;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn_search{
+    background: #1faac8;
+    color: #FFF;
+    padding: 0 20px;
+    border: 0;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+/*Tabla*/
+
+table, tr, th{
+    margin-left: 50px;
+    border: 2px solid #1faac8;
+    border-collapse: collapse;
+}
